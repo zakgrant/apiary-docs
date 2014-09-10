@@ -33,3 +33,10 @@ POST /payment
 { "cc": "12345678900", "cvc": "123", "expiry": "0112" }
 < 200
 { "receipt": "/payment/receipt/1" }
+
+-- Cush's Resources --
+This resource allows you to submit Cush's information to process your *shopping cart* items
+POST /payment
+{ "cc": "12345678900", "cvc": "123", "expiry": "0112" }
+< 200
+{ "receipt": "/payment/receipt/1" }
